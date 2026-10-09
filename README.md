@@ -75,7 +75,6 @@ python svm.py          # veya knn.py, randomforest.py, sms.py
 ```
 
 - Betikler `SMSSpamCollection` dosyasını çalışma dizininde arar; komutları depo klasörü içinden çalıştırın.
-- **Not:** `son.py` veriyi `veri/SMSSpamCollection` yolundan okur. Depoda `veri/` klasörü bulunmadığından bu betik mevcut haliyle dosyayı bulamaz; çalıştırmak için dosyanın bu yolda bulunması gerekir.
 - `sms.py` çalıştırıldığında sınıflandırma raporundan sonra konsoldan SMS girilmesini bekler; çıkmak için `q` yazın. Doğruluk grafiği döngüden çıktıktan sonra gösterilir.
 
 ---

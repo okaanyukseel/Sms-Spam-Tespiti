@@ -8,7 +8,7 @@ import seaborn as sns
 import numpy as np
 
 # 1. Veriyi oku
-df = pd.read_csv("veri/SMSSpamCollection", sep="\t", header=None, names=["label", "message"])
+df = pd.read_csv("SMSSpamCollection", sep="\t", header=None, names=["label", "message"])
 df['label'] = df['label'].map({"ham": 0, "spam": 1})
 
 # 2. Eğitim-test bölmesi
